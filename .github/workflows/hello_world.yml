@@ -1,0 +1,16 @@
+name: Say Hello
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run make say-hello
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make
+          make say-hello
