@@ -10,4 +10,4 @@ This project demonstrates how to create a simple workflow using GitHub Actions.
 
 To run the workflow, push changes to this repository. The workflow will automatically execute the `make say-hello` command.
 
-![example workflow](https://github.com/pavlovkeith/hexlet-my-first-workflow-/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/pavlovkeith/hexlet-my-first-workflow-/actions/workflows/hello-world.yml/badge.svg)
